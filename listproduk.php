@@ -124,7 +124,7 @@
     </script>
     <script>
       function goToPemesanan() {
-        window.location.href = 'formpemesanan.php';
+        window.location.href = 'formpemesanan.html';
       }
     </script>
   </body>
