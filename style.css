@@ -1,0 +1,181 @@
+*,
+home {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd000;
+}
+
+nav {
+  background-color: #e75906;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  color: #fdee18fa;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid #ee0000(255, 0, 0, 0);
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(166, 255, 0);
+}
+
+.banner {
+  height: 80vh;
+
+  background-image: url("img/bg2.jpg");
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.banner :after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+  
+section h2 {
+  color: #ca0000c9;
+  z-index: 1;
+  border: #fdee18fa 3px solid;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h3 {
+  text-align: center;
+  padding: 20px 0;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+section p {
+  text-align: center;
+  color: #353535;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.about {
+  padding-bottom: 100px;
+}
+
+.about p {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  word-spacing: 25px;
+  line-height: 25px;
+}
+
+.riwayat {
+  background-color: rgb(255, 255, 255);
+}
+
+.box {
+  color: #353535;
+}
+
+.box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box .col-4 {
+  width: 25%;
+  padding: auto;
+
+  text-align: center;
+  float: left;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.box .col-4 h4 {
+  margin: 20px;
+}
+
+.listproduk-container {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listproduk-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listproduk-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.listproduk-info {
+  text-align: center;
+}
+
+.listproduk-info h2 {
+  margin: 0;
+  color: #070707;
+}
+
+.listproduk-info p {
+  margin: 5px 0;
+  color: #131212;
+}
+footer {
+  background-color: #191919;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+}
+
+
